@@ -1,0 +1,99 @@
+%versi 2 (8-10-2016) 
+\chapter{Pendahuluan}
+\label{chap:intro}
+
+Bab ini akan membahas latar belakang, rumusan masalah, tujuan, teknis pelaksaan tugas akhir dan sistematika penulisan laporan tugas akhir.
+   
+\section{Latar Belakang}
+\label{sec:latarbelakang}
+
+PT DNArtworks Komunikasi Visual adalah perusahaan yang bergerak di bidang desain, videografi, fotografi, web dan aplikasi. Proyek yang ditangani oleh DNArtworks bukan hanya proyek lokal tapi sudah mencapai skala global. Salah satu proyek yang dikembangkan oleh DNArtworks adalah \textit{Wita Tour Online Ticket} untuk PT Wisata Dewa Tour \& Travel Services (Wita Tour). \textit{Wita Tour Online Ticket} adalah \textit{website} untuk melayani pemesanan tiket pesawat dan hotel Wita Tour.
+
+Situs web saat ini memiliki beberapa fitur sesuai kebutuhan dari Wita Tour. Fitur pertama adalah pemesanan tiket pesawat baik internasional mau pun domestik. Fitur kedua adalah pemesanan hotel yang seperti pesawat, tidak terbatas hanya pada lokal. Fitur ketiga yang ada adalah fitur keanggotaan yang mempermudah pengguna untuk memesan dan perusahaan untuk mengelola data.
+
+Selain Wita Tour, ada sebuah perusahaan \textit{tour and travel} lain yang ingin mengembangkan \textit{website} serupa. Situs tersebut akan memiliki fitur yang sama dengan milik Wita Tour dengan beberapa tambahan. Salah satu tambahan yang diminta adalah pemesanan tiket kereta api yang memanfaatkan API pemesanan tiket kereta api. Modul kereta api ini dibuat untuk memenuhi kebutuhan tambahan situs pemesanan tiket sesuai permintaan klien.
+
+
+\section{Rumusan Masalah}
+\label{sec:rumusan}
+Berdasarkan latar belakang di atas, maka susunan rumusan masalah adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Bagaimana cara membuat situs pemesanan tiket kereta api untuk perusahaan \textit{tour and travel} menggunakan \textit{API} pemesanan tiket kereta api?
+
+\end{enumerate}
+
+
+\section{Tujuan}
+\label{sec:tujuan}
+Tujuan dari pelaksanaan tugas akhir ini adalah:
+
+\begin{enumerate}
+	\item Mempelajari dan membangun situs pemesanan kereta api dengan mengintegrasikan \textit{API} pemesanan tiket kereta api.
+
+\end{enumerate}
+
+\section{Lingkup Pengerjaan}
+\label{sec:lingkuppengerjaan}
+Lingkup pengerjaan terkait dengan pengerjaan tugas akhir ini adalah sebagai berikut:
+\begin{enumerate}
+	\item Sistem dapat digunakan hingga berhasil memesan tiket.
+	\item Pengujian \textit{stressing} tidak termasuk dalam pengerjaan karena keterbatasan waktu.
+\end{enumerate}
+
+\section{Teknis Pelaksanaan}
+\label{sec:teknispelaksanaan}
+Mata kuliah tugas akhir dilaksanakan di DNArtworks Bandung di Jalan Mohammad Toha Dalam 1 No. 2A, Bandung. Tugas akhir dilaksanakan selama 1 semester dengan 336 jam minimal total waktu yang harus terpenuhi. Pelaksaan tugas akhir ini akan menggunakan 4 jam kerja kantor untuk mengerjakan tugas akhir dan 4 jam sisanya untuk proyek lain. Tugas akhir ini mulai dikerjakan dari Februari hingga akhir Mei. Selain waktu kantor yang digunakan untuk membuat program, dokumen dibuat di waktu berbeda sehingga tidak menyalahi alokasi waktu yang diberikan kantor.
+
+Pembagian waktu untuk mengerjakan proyek ini dibagi berdasarkan jumlah modul yang harus diimplementasikan ke situsnya. Modul-modul yang harus diimplementasikan ada 8 yaitu:
+
+\begin{enumerate}
+	\item Mendapatkan daftar stasiun.
+	\item Mendapatkan jadwal kereta api.
+	\item Mendapatkan informasi pemesanan.
+	\item Mendapatkan pemetaan kursi untuk kereta api.
+	\item Melakukan pemesanan tiket kereta api.
+	\item Melakukan perubahan kursi yang dipesan di kereta api.
+	\item Melakukan pembatalan pesanan.
+	\item Melakukan pembayaran untuk tiket yang sudah dipesan.
+
+\end{enumerate}
+
+Perkiraan kasar pelaksanaan untuk masing-masing modul memperhitungkan waktu untuk mempelajari \textit{API} dan kodenya adalah 2 minggu untuk masing-masing modul. \textit{API} dengan dokumentasi yang memiliki kerancuan menjadi pertimbangan karena berpotensi membuat saling tunggu jawaban dengan pihak ketiga. Pertimbangan terakhir adalah waktu yang dibutuhkan untuk menyamakan halaman yang ada dengan fitur lain seperti pesawat dan hotel dari situsnya untuk keseragaman.
+
+\section{Metodologi}
+\label{sec:metodologi}
+Metodologi yang digunakan dalam penyusunan laporan tugas akhir yaitu:
+
+\begin{enumerate}
+	\item Melakukan studi pustaka mengenai layanan berbasis web, pemesanan tiket kereta api online dan \textit{framework} yang akan digunakan.
+	\item Mempelajari \textit{framework} CodeIgniter yang akan digunakan untuk membangun sistem.
+	\item Melakukan analisis domain masalah dan mempelajari situs pemesanan tiket kereta api lain yang sudah ada.
+	\item Merancang sistem yang akan dibangun yang mencakup rancangan antarmuka, fitur-fitur sistem, alur sistem dan diagram kelas.
+	\item Melakukan implementasi hasil analisis dan perancangan.
+	\item Melakukan pengujian fitur aplikasi yang sudah dibangun.
+	\item Mengambil kesimpulan dan saran yang diperoleh dari pelaksanaan tugas akhir yang sudah dilakukan.
+\end{enumerate}
+
+
+\section{Sistematika Laporan}
+\label{sec:sistemlaporan}
+Sistematika penulisan laporan tugas akhir adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Bab 1. Pendahuluan\\
+	Bab ini mencakup latar belakang, rumusan masalah, tujuan tugas akhir dan teknis pelaksaan tugas akhir.
+	\item Bab 2. Tinjauan Umum Perusahaan\\
+	Bab ini memberikan pengenalan umum DNArtworks seperti profil dan struktur perusahaan.
+	\item Bab 3. Landasan Teori\\
+	Bab ini membahas teori-teori yang digunakan dalam pembangunan proyek.
+	\item Bab 4. Analisis dan Perancangan\\
+	Bab ini mencakup analisis domain masalah, diagram-diagram dan rancangan proyek.
+	\item Bab 5. Implementasi\\
+	Bab ini menjelaskan pengimplementasian proyek untuk masing-masing modul dan \textit{API} yang digunakan.
+	\item Bab 6. Pengujian\\
+	Bab ini memamparkan rencana dan hasil pengujian yang dilakukan.
+	\item Bab 7. Kesimpulan dan Saran\\
+	Bab ini berisi kesimpulan dan saran berdasarkan pengerjaan tugas akhir yang dilakukan dalam 1 semester.
+
+\end{enumerate}
